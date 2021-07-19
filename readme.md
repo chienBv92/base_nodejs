@@ -15,14 +15,16 @@ npm run typeorm migration:revert
 ```
 
 # Run
-###Install package
+### Install package
+```shell
 npm run i
-
+```
 ### Develop
 ```shell
 npm run dev
 ```
 ### Production
+Delete folder dist before build
 ```shell
 npm run prod
 ```
