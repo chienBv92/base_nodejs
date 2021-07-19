@@ -1,0 +1,11 @@
+node_modules
+coverage
+.env
+logs
+tests/_results/*
+files
+.ssh
+.idea
+.vscode
+.DS_Store
+dist

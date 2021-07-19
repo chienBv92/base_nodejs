@@ -1,0 +1,5 @@
+{
+  "watch": ["src", "seeds", "migrations", "tests"],
+  "ext": "ts",
+  "exec": "ts-node ./bin/www"
+}

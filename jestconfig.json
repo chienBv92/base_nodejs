@@ -1,0 +1,17 @@
+{
+  "testMatch": ["**/?(*.)+(spec|test).+(ts|tsx|js)"],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "setupFilesAfterEnv": ["./jest.setup.js"],
+  "reporters": [
+    "default",
+    [
+      "./node_modules/jest-html-reporter",
+      {
+        "pageTitle": "函館昆布電子入札システム API Test Report",
+        "outputPath": "tests/_results/test_result.html"
+      }
+    ]
+  ]
+}
