@@ -15,6 +15,9 @@ npm run typeorm migration:revert
 ```
 
 # Run
+###Install package
+npm run i
+
 ### Develop
 ```shell
 npm run dev
